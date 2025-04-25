@@ -1,0 +1,20 @@
+[project]
+name = "langgraphstudy"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "KJM99",email = "2098kjm@naver.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "langgraph (>=0.3.33,<0.4.0)",
+    "notebook (>=7.4.1,<8.0.0)",
+    "pyppeteer (>=2.0.0,<3.0.0)",
+    "nest-asyncio (>=1.6.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
